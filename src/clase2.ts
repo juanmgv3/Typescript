@@ -71,7 +71,8 @@ o simplemente cambiando el nombre de la variable
 
 // #Type Union ( | )
 //TypeScript nos permite expresar un tipado como una combinación de dos o más tipos.
-//Se utiliza | para enumerar todos los tipos que conformarán este nuevo tipo
+//Se utiliza | para enumerar todos los tipos que conformarán este nuevo 
+//Las uniones permiten que una variable pueda contener valores de diferentes tipos en diferentes momentos.
 console.log('-------------------------------- Type Union')
 
 function printObject(obj: string | number){
